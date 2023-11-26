@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+   
+    <link rel="stylesheet" href="style.css" 
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Gantilah 'style.css' dengan nama file CSS Anda. --> 
+    />
+
+
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Representative Intelligent Network of Promotional Media Users</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#BERANDA">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#TENTANG KAMI">TENTANG KAMI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#LAYANAN">LAYANAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#KONTAK">KONTAK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#LOGIN">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h2 class="display-4" id="BERANDA"></h2>
+        <h4 class="display-1">SELAMAT DATANG</h4>
+        <h4 class="display-2">Representative Intelligent Network of Promotional Media Users</h4>
+        <h3 class="display-7">Empowering Promotions, Connecting Minds</h3>
+        <p class="lead"></p>
+        <a href="#">
+          <button type="button" class="btn btn-primary btn-lg">
+            Pelajari Lebih Lanjut
+          </button>
+        </a>
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>PROGRAM KAMI</h3>
+              <p>Kami bertekad untuk mengumpulkan data yang akurat dan relevan untuk membantu perusahaan dalam memahami audiens mereka.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>LAYANAN KAMI</h3>
+              <p>Kami menyediakan solusi cerdas yang memungkinkan perusahaan mengoptimalkan kampanye promosi mereka.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>HUBUNGI KAMI</h3>
+              <p>Jika Anda memiliki pertanyaan atau ingin bekerja sama, jangan ragu untuk menghubungi kami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TENTANG KAMI -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-4" id="TENTANG KAMI">TENTANG KAMI</h2>
+        <p>
+          <span class="justify-text"> Representative Intelligent Network of Promotional Media Users (Marketing Promotion) adalah sebuah proyek yang bertujuan untuk menciptakan sebuah jaringan online yang menghubungkan pengguna media promosi yang efektif dan terpercaya. Proyek ini didasarkan pada ide bahwa promosi produk adalah salah satu faktor penting dalam meningkatkan penjualan dan keuntungan bagi para pelaku usaha, khususnya di era digital saat ini. Namun, banyak pengguna media promosi yang menghadapi kesulitan dalam menjangkau pasar yang tepat, menyesuaikan strategi promosi dengan kebutuhan konsumen, dan mengukur dampak promosi yang mereka lakukan.
+
+            Oleh karena itu, proyek ini mengembangkan sebuah platform yang memanfaatkan teknologi jaringan cerdas untuk memberikan solusi promosi produk yang mudah, cepat, dan cerdas. Platform ini memungkinkan pengguna media promosi untuk saling berbagi informasi, pengalaman, dan sumber daya dalam jaringan yang luas dan terdiversifikasi. Platform ini juga memberikan rekomendasi, analisis, dan optimasi promosi produk yang disesuaikan dengan karakteristik dan preferensi pengguna media promosi dan konsumen.
+            
+            Visi dari proyek ini adalah untuk menjadi jaringan promosi produk terdepan yang mampu memberikan nilai tambah bagi pengguna media promosi dan konsumen. Misi dari proyek ini adalah untuk memberikan kemudahan, efektivitas, dan inovasi dalam promosi produk melalui jaringan cerdas. Proyek ini berbeda dari proyek serupa lainnya karena proyek ini tidak hanya menyediakan layanan promosi produk, tetapi juga menciptakan komunitas pengguna media promosi yang saling mendukung, belajar, dan berkembang bersama.
+            .</span>
+        </p>
+
+        </p>
+        <div class="row pt-5">
+            <span class="lingkaran"><i class="fas fa-star fa-5x"></i></span>
+            <h3 class="mt-3">Review Rating</h3>
+            <p>Cluster Ke-0 memiliki pelanggan yang cenderung memberikan rating tinggi, dengan rata-rata sekitar $4.16.
+            </p>
+            <p>Cluster Ke-1 memiliki pelanggan dengan rating yang paling rendah dibanding cluster lainnya, dengan rata-rata sekitar $2.97.
+            </p>
+            <p>Cluster Ke- 2 memiliki pelanggan dengan rating rata-rata paling tinggi dari cluster lainnya, dengan rata-rata sekitar 4.34 .
+            </p>
+            <p>Cluster ke- 3 memiliki pelanggan yang cenderung memberikan rating rendah, dengan rata-rata sekitar 3.01.</p>
+          </div>
+
+        <span class="lingkaran"><i class="fas fa-store fa-5x"></i></span>
+            <h3 class="mt-3">Previous Purchases</h3>
+            <p>Cluster Ke-0 memiliki pelanggan dengan riwayat pembelian sebelumnya yang panjang, dengan rata-rata sekitar 32.99.
+            </p>
+            <p>Cluster Ke-1 memiliki pelanggan dengan riwayat pembelian sebelumnya yang lebih pendek, dengan rata-rata sekitar 14.35.
+            </p>
+            <p>Cluster Ke-2 memiliki pelanggan dengan riwayat pembelian sebelumnya yang paling rendah, dengan rata - rata sekitar 9.01
+            </p>
+            <p>Cluster ke- 3 memiliki pelanggan dengan riwayat pembelian sebelumnya yang paling tinggi, dengan rata - rata sekitar 40.41.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- layanan -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="LAYANAN">LAYANAN</h2>
+        <p>
+          <span class="justify-text">Bergabunglah bersama kami dalam membentuk masa depan promosi yang cerdas! 🌐 Kami mengundang Anda untuk merasakan layanan unggul yang menyesuaikan diri dengan preferensi Anda, memberikan promosi yang terasa seolah-olah dirancang khusus untuk kebutuhan Anda. Dengan memadukan teknologi mutakhir dan wawasan personal, pengalaman promosi Anda menjadi lebih mendalam dan pribadi. Kami memahami keunikan setiap pelanggan, memberikan rekomendasi yang tepat sasaran dan memastikan setiap promosi memberikan nilai tambah yang sesuai dengan harapan Anda. Jelajahi dunia baru di mana setiap promosi bukan hanya transaksi, tetapi juga koneksi personal yang menginspirasi. Bergabunglah di perjalanan kami menuju masa depan promosi yang memikat! #PromoMasaDepan
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://i.pinimg.com/236x/a2/a3/2b/a2a32b55a24118fc0e3d4493b89de115.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sneaker</h5>
+                <p class="card-text">
+                  "Tambahkan sentuhan gaya ke langkahmu dengan sneaker terkini. Temukan desain inovatif dan kenyamanan luar biasa. Eksplorasi koleksi untuk penampilan yang stylish dan berani. #SneakerStyle"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://i.pinimg.com/236x/53/2b/13/532b133feb6ae29f94b0d87568c28c1e.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">T-shirt</h5>
+                <p class="card-text">
+                  "Sempurnakan gaya kasualmu dengan t-shirt terkini! Temukan desain yang trendi, kenyamanan maksimal, dan ekspresikan dirimu dengan gaya unik. Eksplorasi koleksi kami sekarang! #TshirtStyle #CasualCool"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="https://i.pinimg.com/236x/dc/21/5e/dc215e8233661d9d5572e5c491257fa0.jpg"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hoodie</h5>
+                <p class="card-text">
+                  "
+                  Persembahkan kenyamanan dan gaya dengan hoodie terkini. Desain modern, bahan berkualitas, dan sentuhan cozy untuk gaya santai yang tetap trendy. #HoodieStyle"
+                </p>
+              </div>
+            </div>
+          </div>
+          
+    <!-- kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="KONTAK">KONTAK</h2>
+        <p class="text-center">
+          Hubungi Kami Melalui Kontak Di Bawah Ini
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Nama"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="No. Phone"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-primary btn-lg">
+            Kirim Pesan
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- login -->
+    <div class="login-container login pt-5 pb-5">
+      <form id="loginForm">
+          <h2>Login</h2>
+          <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit">Login</button>
+      </form>
+      <p class="register-link">Belum punya akun? <a href="#" onclick="showRegistrationForm()">Daftar disini</a></p>
+      <!-- Formulir pendaftaran (awalnya disembunyikan) -->
+      <form id="registrationForm" style="display: none;">
+          <h2>Daftar</h2>
+          <div class="form-group">
+              <label for="newUsername">Username:</label>
+              <input type="text" id="newUsername" name="newUsername" required>
+          </div>
+          <div class="form-group">
+              <label for="newPassword">Password:</label>
+              <input type="password" id="newPassword" name="newPassword" required>
+          </div>
+          <button type="button" onclick="registerUser()">Daftar</button>
+      </form>
+  </div>
+  <script src="login.js"></script>
+
+  <div class="container text-center pt-5 pb-5">
+    All Rights Reserved &copy; 2023
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>
+
+
